@@ -1,0 +1,25 @@
+body::before{
+    display: block;
+    content: '';
+    height: 56px;
+}
+
+#intro img{
+    width: 450px;
+}
+
+#learn img{
+    width: 450px;
+    height: 350px;
+}
+
+#contact img{
+    width: 450px;
+}
+
+/* breakpoint for medium */
+@media(min-width: 768px) {
+    .email-input{
+        width: 50%;
+    }
+}
